@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Paleta pastel para gestión inmobiliaria */
+:root {
+  --pastel-cream: #FAF7F2;
+  --pastel-sky: #B8D4E8;
+  --pastel-sage: #C5E0B4;
+  --pastel-peach: #F5D0C5;
+  --pastel-lavender: #D4C4E8;
+  --pastel-charcoal: #5C6B7A;
+  --pastel-border: #E8E4DF;
+  --pastel-card: #FEFDFB;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--pastel-cream);
+  color: var(--pastel-charcoal);
+}
